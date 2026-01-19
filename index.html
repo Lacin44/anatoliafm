@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Anatolia FM Canlı Yayın</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding-top: 50px;
+}
+button {
+  font-size: 18px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  background: #e63946;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background: #ff4d5a;
+}
+</style>
+</head>
+<body>
+
+<h1>🎵 Anatolia FM</h1>
+<p>Canlı Yayın</p>
+
+<audio id="player" src="http://listen2myradio.com:8000/stream"></audio>
+
+<button onclick="document.getElementById('player').play()">▶ Dinlemeye Başla</button>
+
+</body>
+</html>
